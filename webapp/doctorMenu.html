@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Surgical Diagnostic Test Center</title>
+	<style>
+		table, td, tr{
+			margin: 10px;
+			padding: 5px;
+		}
+	</style>
+</head>
+<body align="center" bgcolor="f0f0f0">
+	<h1>Surgical Diagnostic Test Center</h1><br><hr><br>
+	<div align="center">
+		<form method="post" action="DoctorMenu">
+			<table style="padding: 50px; border: 3px solid;">
+			<caption><h4>Doctor Menu</h4></caption>
+			<tr><td align="right"><input type="radio" name="choice" value="1" checked></td><td>Add order for Diagnostic test</td></tr>
+			<tr><td align="right"><input type="radio" name="choice" value="2"></td><td>Update result of Diagnostic test<br></td></tr>
+			<tr><td align="right"><input type="radio" name="choice" value="3"></td><td>Add Patient to Surgeon Waiting list<br></td></tr>
+			<tr><td align="right"><input type="radio" name="choice" value="4"></td><td>Remove Patient from Surgeon Waiting list<br></td></tr>
+			<tr><td align="right"><input type="radio" name="choice" value="5"></td><td>Audit Waiting list<br></td></tr>
+			<tr><td align="right"><input type="radio" name="choice" value="6"></td><td>Add referral<br></td></tr>
+			<tr><td align="right"><input type="radio" name="choice" value="7"></td><td>Remove referral<br></td></tr>
+			<tr><td align="right"><input type="radio" name="choice" value="8"></td><td>Update appointment date<br></td></tr>
+			<tr><td colspan=2></td></tr>
+			<tr><td align="right" colspan=2><input type="reset" name="Reset">&nbsp;&nbsp;<input type="submit" value="Choose"></td></tr>
+			<tr><td colspan=2><hr></td></tr>
+			<tr><td align="right" colspan=2><small><a href="index.html">Logout</a></small></td></tr>
+			</table>
+		</form> 
+	</div>
+</body>
+</html>
